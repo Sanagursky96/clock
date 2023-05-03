@@ -2,6 +2,79 @@
     background-color: black;
 }
 
+body {
+  font-family: "Epilogue", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+}
+.conteiner {
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
 img {
-    display: block;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list {
+    display: flex;
+}
+
+.nav-link {
+    font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 9px;
+line-height: 12px;
+/* identical to box height, or 133% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
 }
